@@ -154,7 +154,10 @@ cd "c:\Program Files\EasyPHP1-8\apache\"
 
 cd "c:\Program Files\"
 "c:\Program Files\7-Zip\7z.exe" x -y  c:\Oyak\latex.7z >> c:\Oyak\out_inst.txt
+@copy c:\Oyak\latex.ltx  "C:\Program Files\MiKTeX 2.6\tex\latex\base\" >> c:\Oyak\out_inst.txt
 
+@copy c:\Oyak\latex5.ltx  "C:\Program Files\MiKTeX 2.5\tex\latex\base\latex.ltx" >> c:\Oyak\out_inst.txt
+@copy c:\Oyak\latex6.ltx  "C:\Program Files\MiKTeX 2.6\tex\latex\base\latex.ltx" >> c:\Oyak\out_inst.txt
 
 :TEST
 
